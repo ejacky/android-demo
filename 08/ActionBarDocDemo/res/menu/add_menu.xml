@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >    
+    <item
+        android:id="@+id/menu_calculator"
+        android:icon="@drawable/calculator"
+        android:showAsAction="ifRoom|withText"
+        android:title="calculator"/>
+    <item
+        android:id="@+id/menu_calendar"
+        android:icon="@drawable/calendar"
+        android:showAsAction="ifRoom"
+        android:title="calendar"/>
+    <item
+        android:id="@+id/menu_camera"
+        android:icon="@drawable/camera"
+        android:showAsAction="ifRoom"
+        android:title="camera"/>
+    <item
+        android:id="@+id/menu_contacts"
+        android:icon="@drawable/contacts"
+        android:showAsAction="ifRoom"
+        android:title="contacts"/>
+</menu>

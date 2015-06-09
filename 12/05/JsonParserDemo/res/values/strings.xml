@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">jsonparser</string>
+    <string name="action_settings">Settings</string>
+    <string name="person">解析person数据</string>
+	<string name="personList">解析personList数据</string>
+	<string name="stringList">解析stringList数据</string>
+	<string name="dicList">解析DicList数据</string>
+	
+</resources>

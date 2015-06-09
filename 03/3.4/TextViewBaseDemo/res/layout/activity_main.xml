@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:text="红色，30dp，粗体，字体monospace"
+        android:textColor="#ff0000"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+	<!-- 文本超出部分末尾省略 -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:padding="20sp"
+        android:singleLine="true"
+        android:text="对于android:ellipsize属性，它用来设定文本内容超过UI组件的宽度的时候，如何处理" />
+
+    <!-- 响应连接，启动浏览器访问 -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:padding="20sp"
+        android:text="http://www.baidu.com" />
+
+</LinearLayout>

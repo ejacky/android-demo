@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpinnerXMLDateDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="beij_prompt">北京区域</string>
+    <string-array name="beijing">
+        <item>朝阳区</item>
+        <item>海淀区</item>
+        <item>房山区</item>
+        <item>丰台区</item>
+        <item>东城区</item>
+        <item>西城区</item>
+    </string-array>
+
+</resources>

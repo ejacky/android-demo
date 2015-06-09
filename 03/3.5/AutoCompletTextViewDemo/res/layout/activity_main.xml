@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AutoConpaletText-City" />
+    <!-- 声明一个AutoCompleteTextView控件，设定其下拉框标题为“Famous Citi” 并且输入一个字符开始提示 -->
+    <AutoCompleteTextView
+        android:id="@+id/autotext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="世界闻名的城市"
+        android:completionThreshold="1" />
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bookdemo.helloword"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	<!-- package属性指定当前应用包名为： com.bookdemo.helloword-->
+	<!-- android:versionCode和android:versionName指定当前应用的版本号-->
+	
+	<!-- uses-sdk 指定当前最低兼容SDK 8 目标版本为SDK17 -->
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <!-- 配置应用程序的图标、标题、主题等 -->
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!-- 注册一个Activity，并指定对应实现类 -->
+        <activity
+            android:name="com.bookdemo.helloword.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
